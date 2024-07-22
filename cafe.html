@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C H O K O'S</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="duck.css">
+</head>
+<body>
+<nav class="navbar">
+<div class="container-fluid">
+<a class="navbar-brand" href="#">C H O K O'S</a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item">
+<a class="nav-link" href="#">Home</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="menu.html">Menu</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#">About</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#">Contact</a> </li>
+ </ul>
+</div>
+</div>
+ </nav>
+    <header class="bg-image" style="background-image: url('https://cdn.pixabay.com/photo/2020/06/30/07/50/coffee-5355428_1280.jpg');">
+        <div class="container">
+            <h1>Welcome to C H O K O'S</h1>
+            <p>Your perfect place for coffee and snacks</p>
+            <a href="menu.html" class="button"><p class="hi">Explore Our Menu</p></a>
+        </div>
+    </header>
+    <section id="menu" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Our Menu</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://ideas.ted.com/wp-content/uploads/sites/3/2022/07/FINAL_Coffee.jpg?w=750" class="card-img-top">
+                        <div class="card-body">
+                            <a href="menu.html"><h5 class="card-title">Coffee</h5></a>
+                       <p class="card-text">Rich and aromatic coffee brewed to perfection</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://assets.bonappetit.com/photos/5c9aa2984511cf7f12fc7636/1:1/w_1701,h_1701,c_limit/SF-PASTRY-LEDE.jpg" class="card-img-top" alt="Pastry">
+                        <div class="card-body">
+                            <h5 class="card-title">Pastries</h5>
+                            <p class="card-text">Freshly baked pastries with a variety of flavors.</p>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <br>
+                
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://t4.ftcdn.net/jpg/01/23/55/53/360_F_123555365_8WfqtRbRFxPqWVX1S6fZdkrbmnSfiUah.jpg" class="card-img-top" alt="Sandwich">
+                        <div class="card-body">
+                            <h5 class="card-title">Sandwiches</h5>
+                            <p class="card-text">Delicious sandwiches made with fresh ingredients.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">About Us</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="https://kernigkrafts.com/wp-content/uploads/2019/05/cafe-coffee-design-tasty.jpg" class="img-fluid" alt="Cafe Image">
+                    <br>
+                    <br>
+                </div>
+                <div class="col-md-6">
+                    <p>At C H O K O'S, we are passionate about providing our customers with the finest coffee and delicious snacks. Our cozy atmosphere is perfect for relaxing or catching up with friends.</p>
+                    <p>We source our ingredients from local suppliers to ensure freshness and quality in every bite. Come visit us and experience the best cafe experience in town.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Contact Us</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Address</h5>
+                    <p>123 Chitkara, sq1, CO 12345</p>
+                    <h5>Email</h5>
+                    <p>info@chokos.com</p>
+                    <h5>Phone</h5>
+                    <p>(123) 456-7890</p>
+                </div>
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="3" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
